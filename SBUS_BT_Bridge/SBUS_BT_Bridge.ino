@@ -177,8 +177,6 @@ void processGamepad(ControllerPtr ctl) {
     int32_t CH6_STATE = _LOW;
     int32_t CH7_STATE = _LOW;
     int32_t CH8_STATE = _MID;
-    
-    int32_t bA = 192;
 
     // Store Values Here to write to SBUS TX
     SBUS_DATA tx_data;
@@ -770,6 +768,6 @@ void loop() {
     // Detailed info here:
     // https://stackoverflow.com/questions/66278271/task-watchdog-got-triggered-the-tasks-did-not-reset-the-watchdog-in-time
 
-    //     vTaskDelay(1);
+    vTaskDelay(1);
     delayMicroseconds(600);
 }
