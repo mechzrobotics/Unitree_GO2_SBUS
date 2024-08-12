@@ -12,6 +12,6 @@ Requirements:
 - ESP32 - Tested With ESP32S3
 - Buck Converter - LM2596 Used
 - XT30 Male Power Connector
-- 3P Picoblade
+- 3P 1.25mm Picoblade
 
 [![Video](https://img.youtube.com/vi/AR2y-QA6O1I/0.jpg)](https://www.youtube.com/watch?v=AR2y-QA6O1I)
